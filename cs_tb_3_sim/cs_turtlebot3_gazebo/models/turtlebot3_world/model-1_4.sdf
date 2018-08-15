@@ -2,22 +2,22 @@
  <!-- Place Cubes -->
   <model name='cube1'> 
    <static>1</static>
-   <link name='array'>
+   <link name='cube1'>
       <collision name='cube1'>
-        <pose>0.6 0 0 0 0 0</pose>
+        <pose>0.6 0 0  0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
       </collision>
 
      <visual name='cube1'>
-     <pose>0.6 0 0 0 0 0</pose>
+     <pose>0.6 0 0  0 0 0</pose>
      <geometry>
       <mesh>
-       <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+       <uri>model://turtlebot3_world/meshes/scube.dae</uri>
        <scale>1 1 1</scale>
       </mesh>
      </geometry>
@@ -27,22 +27,22 @@
 
   <model name='cube2'> 
   <static>1</static>
-   <link name='array'>
+   <link name='cube2'>
       <collision name='cube2'>
-        <pose>1.2 0 0 0 0 0</pose>
+        <pose>1.2 0 0  0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
       </collision>
 
      <visual name='cube2'>
-     <pose>1.2 0 0 0 0 0</pose>
+     <pose>1.2 0 0  0 0 0</pose>
      <geometry>
       <mesh>
-       <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+       <uri>model://turtlebot3_world/meshes/scube.dae</uri>
        <scale>1 1 1</scale>
       </mesh>
      </geometry>
