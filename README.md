@@ -29,16 +29,16 @@ mv * ..
 
 cd ..
 
-rm -fdr cs_tb_proto
+rm -fdr cs_tb_prototype
 
 This also nukes the hidden .git folder, but you don't need it, unless you need it for something, but I dunno what, my dev env and this are seperated.
 
 if you install the ROBOTIS script mentioned above it adda a bunch of aliases to your ~/.bashrc
 allowing you to type a bunch of 2 letter commands to do things 
 
-like sb instead of "source ~/.bashrc"
+like 'sb' instead of "source ~/.bashrc" (NOTE this is needed EACH time you open a new terminal)
 
-and cm instead of "cd ~/catkin_ws && catkin_make"... you get the idea!
+and 'cm' instead of "cd ~/catkin_ws && catkin_make"... you get the idea!
 
 these folders were copied from a live install
 
@@ -47,7 +47,14 @@ they were at ~/catkin_ws/src/
 to compile any changes
 $ ~catkin_ws/src$ cd ~/catkin_ws && catkin_make (or, if you installed from the ROBOTIS instructions above, the alias "cm")
 
-to run:
+there is also a test environment for just Gazebo consisting of 2 world files
+in a terminal. cd to: ~/catkin/ws/src/cs_array/world
+and run
+$ gazebo test.world 
+or
+$ gazebo cs_array.world
+
+to run the robot environment:
 
 Terminal 1
 $ roscore
