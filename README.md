@@ -16,25 +16,36 @@ This is parts of 3 packages, which it is hoped can be folded into a single metap
 I left it intact to the degree there is a Turtlebot 3 still in it for now, until I master the concepts of feeding signals from a keyboard or other sources for dynamic interaction with the Cube centric robots.
 
 Since this was 3 folders, it still is, meaning you'll need to copy the folders from the cloned folder up one level
+
 i.e. 
+
 $ cd ~/catkin_ws/src
-$ git clone https://github.com/CubeSpawn/cs_tb_proto.git
-cd cs_tb_proto
+
+$ git clone https://github.com/CubeSpawn/cs_tb_prototype.git
+
+cd cs_tb_prototype
+
 mv * ..
+
 cd ..
+
 rm -fdr cs_tb_proto
+
 This also nukes the hidden .git folder, but you don't need it, unless you need it for something, but I dunno what, my dev env and this are seperated.
 
 if you install the ROBOTIS script mentioned above it adda a bunch of aliases to your ~/.bashrc
-allowing you to type a bunch of 2 letter commands to do things like sb instead of "source ~/.bashrc"
+allowing you to type a bunch of 2 letter commands to do things 
+
+like sb instead of "source ~/.bashrc"
+
 and cm instead of "cd ~/catkin_ws && catkin_make"... you get the idea!
 
 these folders were copied from a live install
 
-they where at ~/catkin_ws/src/
+they were at ~/catkin_ws/src/
 
 to compile any changes
-$ ~catkin_ws/src$ cd ~/catkin_ws && catkin_make (or, if you installed the ROBOTIS above, the alias "cm")
+$ ~catkin_ws/src$ cd ~/catkin_ws && catkin_make (or, if you installed from the ROBOTIS instructions above, the alias "cm")
 
 to run:
 
