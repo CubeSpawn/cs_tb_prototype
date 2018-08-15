@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="cube1">
+      <pose>0.6 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube1">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube2">
+      <pose>1.2 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube2">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube3">
+      <pose>1.8 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube3">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube4">
+      <pose>2.4 0 0 0 0 0</pose>
+      <static>true</static>
+      <link name="cube4">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube5">
+      <pose>0.6 1.2 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube5">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube6">
+      <pose>1.2 1.2 0 0 0 0</pose>
+      <static>true</static>
+      <link name="cube6">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube7">
+      <pose>1.8 1.2 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube7">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube8">
+      <pose>2.4 1.2 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube8">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube9">
+      <pose>0 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube9">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube10">
+      <pose>0.6 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube10">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube11">
+      <pose>1.2 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube11">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube12">
+      <pose>1.8 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube12">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube13">
+      <pose>2.4 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube13">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="cube14">
+      <pose>3.0 0.6 0  0 0 0</pose>
+      <static>true</static>
+      <link name="cube14">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://tcube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube15">
+      <pose>0.6 1.2 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube15">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube16">
+      <pose>1.2 1.2 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube16">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube17">
+      <pose>1.8 1.2 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube17">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube18">
+      <pose>2.4 1.2 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube18">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube19">
+      <pose>0.6 0.6 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube19">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="cube20">
+      <pose>1.2 0.6 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube20">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="cube21">
+      <pose>1.8 0.6 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube21">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="cube22">
+      <pose>2.4 0.6 0.6  0 0 0</pose>
+      <static>true</static>
+      <link name="cube22">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://scube.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+
+    <model name="cube23">
+      <pose>1.2 0.6 0.6  0 0 3.1415926</pose>
+      <static>true</static>
+      <link name="cube19">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube24">
+      <pose>1.8 0.6 0.6  0 0 3.1415926</pose>
+      <static>true</static>
+      <link name="cube24">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube25">
+      <pose>2.4 0.6 0.6  0 0 3.1415926</pose>
+      <static>true</static>
+      <link name="cube25">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <model name="cube26">
+      <pose>3.0 0.6 0.6  0 0 3.1415926</pose>
+      <static>true</static>
+      <link name="cube26">
+        <visual name="visual">
+          <geometry>
+            <mesh>
+             <uri>file://ccuber.dae</uri>
+             <scale>1 1 1</scale>
+             </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

@@ -1,0 +1,52 @@
+<sdf version='1.5'>
+  <!-- Place Cubes -->
+  <model name='cube1'> 
+   <static>1</static>
+    <link name='cube1'>
+       <collision name='cube1'>
+         <pose>0.6 0 0 0 0 0</pose>
+         <geometry>
+           <mesh>
+             <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+             <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+       </collision>
+
+      <visual name='cube1'>
+      <pose>0.6 0 0 0 0 0</pose>
+      <geometry>
+       <mesh>
+        <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+        <scale>1 1 1</scale>
+       </mesh>
+      </geometry>
+     </visual>
+    </link>
+  </model>
+
+  <model name='cube2'> 
+   <static>1</static>
+    <link name='array'>
+       <collision name='cube2'>
+         <pose>1.2 0 0 0 0 0</pose>
+         <geometry>
+           <mesh>
+             <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+             <scale>1 1 1</scale>
+           </mesh>
+         </geometry>
+       </collision>
+
+      <visual name='cube2'>
+      <pose>1.2 0 0 0 0 0</pose>
+      <geometry>
+       <mesh>
+        <uri>model://turtlebot3_world/meshes/simplecube.dae</uri>
+        <scale>1 1 1</scale>
+       </mesh>
+      </geometry>
+     </visual>
+    </link>
+ </model>
+</sdf>

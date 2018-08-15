@@ -1,0 +1,21 @@
+these folders were copied from a live install
+they where at ~/catkin_ws/src/
+
+to compile any changes
+user@Machine:~catkin_ws/src$ cd ~/catkin_ws && catkin_make
+
+to run:
+
+Terminal 1
+$ roscore
+
+Terminal 2
+$ roslaunch cs_turtlebot3_gazebo turtlebot3_world.launch
+
+Terminal 3
+$ roslaunch cs_turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
+
+Terminal 4
+$ roslaunch cs_turtlebot3_teleop cs_turtlebot3_teleop_key.launch
+
+
