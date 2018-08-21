@@ -1,0 +1,579 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="cubespawn_array">  
+   <static>1</static>
+
+    <link name="scube1">
+      <collision name="scube1_collision">
+        <pose>0.6 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube1_visual">
+        <pose>0.6 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube2">
+      <collision name="scube2_collision">
+        <pose>1.2 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube2_visual">
+        <pose>1.2 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube3">
+      <collision name="scube3_collision">
+        <pose>1.8 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube3_visual">
+        <pose>1.8 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube4">
+      <collision name="scube4_collision">
+        <pose>2.4 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube4_visual">
+        <pose>2.4 0 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube5">
+      <collision name="scube5_collision">
+        <pose>0.6 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube5_visual">
+        <pose>0.6 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube6">
+      <collision name="scube6_collision">
+        <pose>1.2 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube6_visual">
+        <pose>1.2 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube7">
+      <collision name="scube7_collision">
+        <pose>1.8 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube7_visual">
+        <pose>1.8 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube8">
+      <collision name="scube8_collision">
+        <pose>2.4 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube8_visual">
+        <pose>2.4 1.2 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube9">
+      <collision name="scube9_collision">
+        <pose>0.6 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube9_visual">
+        <pose>0.6 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube10">
+      <collision name="scube10_collision">
+        <pose>1.2 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube10_visual">
+        <pose>1.2 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube11">
+      <collision name="scube11_collision">
+        <pose>1.8 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube11_visual">
+        <pose>1.8 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="scube12">
+      <collision name="scube12_collision">
+        <pose>2.4 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="scube12_visual">
+        <pose>2.4 0.6 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/scube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube1">
+      <collision name="tcube1_collision">
+        <pose>0 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube1_visual">
+        <pose>0 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube2">
+      <collision name="tcube2_collision">
+        <pose>0.6 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube2_visual">
+        <pose>0.6 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube3">
+      <collision name="tcube3_collision">
+        <pose>1.2 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube3_visual">
+        <pose>1.2 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube4">
+      <collision name="tcube4_collision">
+        <pose>1.8 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube4_visual">
+        <pose>1.8 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube5">
+      <collision name="tcube5_collision">
+        <pose>2.4 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube5_visual">
+        <pose>2.4 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="tcube6">
+      <collision name="tcube6_collision">
+        <pose>3.0 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="tcube6_visual">
+        <pose>3.0 0.6 0  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/tcube.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber1">
+      <collision name="ccuber1_collision">
+        <pose>0.6 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber1_visual">
+        <pose>0.6 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber2">
+      <collision name="ccuber2_collision">
+        <pose>1.2 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber2_visual">
+        <pose>1.2 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber3">
+      <collision name="ccuber3_collision">
+        <pose>1.8 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber3_visual">
+        <pose>1.8 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber4">
+      <collision name="ccuber4_collision">
+        <pose>2.4 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber4_visual">
+        <pose>2.4 1.2 0.6  0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber5">
+      <collision name="ccuber5_collision">
+        <pose>1.2 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber5_visual">
+        <pose>1.2 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber6">
+      <collision name="ccuber6_collision">
+        <pose>1.8 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber6_visual">
+        <pose>1.8 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber7">
+      <collision name="ccuber7_collision">
+        <pose>2.4 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber7_visual">
+        <pose>2.4 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+    <link name="ccuber8">
+      <collision name="ccuber8_collision">
+        <pose>3.0 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="ccuber8_visual">
+        <pose>3.0 0.6 0.6  0 0 3.1415926</pose>
+        <geometry>
+          <mesh>
+            <uri>model://turtlebot3_world/meshes/ccuber.dae</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+    </link> 
+
+  </model>
+</sdf>
