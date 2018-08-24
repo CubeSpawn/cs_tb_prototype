@@ -3,9 +3,9 @@ Turning TurtleBot3 into CubeSpawn
 
 This is a preliminary prototype of the simulation environment hacked out of the very nicely built TurtleBot3 packages over at https://github.com/ROBOTIS-GIT
 
-Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/
+Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup
+
 or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu Note: if you do this, I'd suggest still adding the robotis install up to the point of cloning thier packages. so that no core resources are missing.
-=======
 or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 
@@ -32,9 +32,9 @@ All the steps to do this have been encapsulated into a (primitive) shell scrip
 
 its assumed you are still at ~/catkin_ws/src
 
-cd ~/catkin_ws/src/cs_tb_prototype
+$ cd ~/catkin_ws/src/cs_tb_prototype
 
-./setup.sh
+$ ./setup.sh
 
 if you install the ROBOTIS script mentioned above it adds a bunch of aliases to your ~/.bashrc
 allowing you to type a bunch of 2 letter commands to do things 
