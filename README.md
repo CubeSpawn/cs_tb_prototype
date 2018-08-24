@@ -3,9 +3,9 @@ Turning TurtleBot3 into CubeSpawn
 
 This is a preliminary prototype of the simulation environment hacked out of the very nicely built TurtleBot3 packages over at https://github.com/ROBOTIS-GIT
 
-Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup/
+Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup
+
 or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu Note: if you do this, I'd suggest still adding the robotis install up to the point of cloning thier packages. so that no core resources are missing.
-=======
 or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu
 
 
