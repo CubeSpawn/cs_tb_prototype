@@ -6,8 +6,6 @@ This is a preliminary prototype of the simulation environment hacked out of the 
 Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup
 
 or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu Note: if you do this, I'd suggest still adding the robotis install up to the point of cloning thier packages. so that no core resources are missing.
-or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu
-
 
 Note I'm running on Ubuntu LTS 16.04 with ROS Kinetic. If you run on a different platform, godspeed and best-o-luck, I dunno about that.
 
@@ -18,8 +16,7 @@ All credit to them for skillfully providing this first step!
 This is parts of 3 tb packages, which it is hoped can be folded into a single metapackage for CubeSpawn
 I left it intact to the degree there is a Turtlebot 3 still in it for now, until I master the concepts of feeding signals from a keyboard or other sources for dynamic interaction with the CubeSpawn centric robots.
 
-after getting your ROS install in place with the instruction above.
-
+Ater getting your ROS install in place with the instruction above.
 clone the CubeSpawn test packages: 
 
 $ cd ~/catkin_ws/src
