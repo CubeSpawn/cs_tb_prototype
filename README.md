@@ -23,9 +23,9 @@ $ cd ~/catkin_ws/src
 
 $ git clone https://github.com/CubeSpawn/cs_tb_prototype.git
 
-Since this was 3 folders, it still is, meaning you'll need to copy the folders from the cloned folder up one level
+Since this was 3 folders, it still is, meaning: you'll need to copy the folders from the cloned folder up one level
 
-All the steps to do this have been encapsulated into a (primitive) shell scrip
+All the steps to do this have been encapsulated into a (primitive) shell script
 
 its assumed you are still at ~/catkin_ws/src
 
@@ -34,11 +34,13 @@ $ cd ~/catkin_ws/src/cs_tb_prototype
 $ ./setup.sh
 
 if you install the ROBOTIS script mentioned above it adds a bunch of aliases to your ~/.bashrc
-allowing you to type a bunch of 2 letter commands to do things 
+allowing you to type a bunch of 2 letter commands to do useful and repetitive things... 
 
 like 'sb' instead of "source ~/.bashrc" (NOTE this is needed EACH time you open a new terminal)
 
-and 'cm' instead of "cd ~/catkin_ws && catkin_make"... you get the idea!
+and 'cm' instead of "cd ~/catkin_ws && catkin_make"... you get the idea! 
+Note: to see the other aliases by the ROBOTIS script 
+$ cat ~/.bashrc 
 
 these folders were copied from a live install
 
