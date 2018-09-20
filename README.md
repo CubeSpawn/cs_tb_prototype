@@ -5,48 +5,53 @@ This is a preliminary prototype of the simulation environment hacked out of the 
 
 Before installing this I'd suggest installing ROS kinetic as described here: http://emanual.robotis.com/docs/en/platform/turtlebot3/pc_setup
 
-or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu Note: if you do this, I'd suggest still adding the robotis install up to the point of cloning thier packages. so that no core resources are missing.
+Or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu 
 
-Note I'm running on Ubuntu LTS 16.04 with ROS Kinetic. If you run on a different platform, godspeed and best-o-luck, I dunno about that.
+Note: if you do this, I'd suggest still adding the ROBOTIS install up to the point of cloning thier packages so that no core resources are missing.
+or the full official install, here: http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-The nice thing about the ROBOTIS instructions is they cover several configuration issues as well as the mechanics of the install 
+
+Note: I'm running on Ubuntu LTS 16.04 with ROS Kinetic. If you run on a different platform, godspeed and best-o-luck, I dunno about that.
+
+The nice thing about the ROBOTIS instructions is they cover several configuration issues as well as the mechanics of the installation. 
 
 All credit to them for skillfully providing this first step!
 
 This is parts of 3 tb packages, which it is hoped can be folded into a single metapackage for CubeSpawn
 I left it intact to the degree there is a Turtlebot 3 still in it for now, until I master the concepts of feeding signals from a keyboard or other sources for dynamic interaction with the CubeSpawn centric robots.
 
-Ater getting your ROS install in place with the instruction above.
-clone the CubeSpawn test packages: 
+After getting your ROS install in place with the instruction above.
+
+Clone the CubeSpawn test packages: 
 
 $ cd ~/catkin_ws/src
 
 $ git clone https://github.com/CubeSpawn/cs_tb_prototype.git
 
-Since this was 3 folders, it still is, meaning: you'll need to copy the folders from the cloned folder up one level
+Since this was 3 folders, it still is, meaning you'll need to copy the folders from the cloned folder up one level.
 
 All the steps to do this have been encapsulated into a (primitive) shell script
 
-its assumed you are still at ~/catkin_ws/src
+Its assumed you are still at ~/catkin_ws/src
 
 $ cd ~/catkin_ws/src/cs_tb_prototype
 
 $ ./setup.sh
 
-if you install the ROBOTIS script mentioned above it adds a bunch of aliases to your ~/.bashrc
-allowing you to type a bunch of 2 letter commands to do useful and repetitive things... 
+If you install the ROBOTIS script mentioned above it adds a several aliases to your ~/.bashrc
+allowing you to type a bunch of 2 letter commands to do things 
 
-like 'sb' instead of "source ~/.bashrc" (NOTE this is needed EACH time you open a new terminal)
+Such as 'sb' instead of "source ~/.bashrc" (NOTE this is needed EACH time you open a new terminal)
 
 and 'cm' instead of "cd ~/catkin_ws && catkin_make"... you get the idea! 
 Note: to see the other aliases by the ROBOTIS script 
 $ cat ~/.bashrc 
 
-these folders were copied from a live install
+These folders were copied from a live install.
 
-they were at ~/catkin_ws/src/
+They were at ~/catkin_ws/src/
 
-to compile any changes
+To compile any changes
 $ ~catkin_ws/src$ cd ~/catkin_ws && catkin_make (or, if you installed from the ROBOTIS instructions above, the alias "cm")
 
 There is also a test environment for just Gazebo consisting of 2 world files
@@ -72,7 +77,7 @@ $ roslaunch cs_turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
 Terminal 4
 $ roslaunch cs_turtlebot3_teleop cs_turtlebot3_teleop_key.launch
 
-I have the install duplicated on 4 machines on the same network segment and use a software KVM (synergy) to map the desktops into one work environment, this allows for running each terminal on its own screen.
+I have the installation duplicated on 4 machines on the same network segment and use a software KVM (synergy) to map the desktops into one work environment, this allows for running each terminal on its own screen.
 
 
 footnotes:
